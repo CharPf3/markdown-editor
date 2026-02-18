@@ -33,8 +33,12 @@
       {{ charCount }} characters
     </div>
 
-    <span id="themeToggle" class="material-icons">
-      dark_mode
+    <span 
+      id="themeToggle" 
+      class="material-icons"
+      @click="toggleTheme"
+    >
+      {{themeIcon}}
     </span>
 
   </div>
