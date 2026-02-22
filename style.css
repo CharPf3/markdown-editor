@@ -24,11 +24,24 @@
 @media (min-width: 768px) {
   .editor-container {
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #input,
+  #output {
+    flex: 1 1 50%;
   }
 
   #output {
     border-top: none;
     border-left: 1px solid #ccc;
+  }
+
+  #counter {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
   }
 }
 
